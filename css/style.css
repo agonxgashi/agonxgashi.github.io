@@ -23,6 +23,10 @@ label {
     line-height: 1.25
 }
 
+.sayHi::after {
+    content: " |-";
+}
+
 .container {
     padding: 30px;
 }

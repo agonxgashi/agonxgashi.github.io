@@ -1,3 +1,6 @@
+// so to the guy who wrote this fiddle. With a few tweaks, now is possible to loop in an array of words and type them.
+// http://jsfiddle.net/LSsZr/8/
+
 ! function ($) {
 
     "use strict";
@@ -179,17 +182,17 @@
         });
     }
 
-    $.fn.typed.defaults = {
-        strings: ["These are the default values...", "You know what you should do?", "Use your own!", "Have a great day!"],
-        // typing and backspacing speed
-        typeSpeed: 0,
-        // time before backspacing
-        backDelay: 500,
-        // ending callback function
-        callback: function () {
-            null
-        }
-    }
+    // $.fn.typed.defaults = {
+    //     strings: ['Përshendetje', 'Hello', 'Hola', 'Hallo', 'Bonjour', 'Ciao', 'Hej', 'Merhaba', '你好', 'こんにちは'],
+    //     // typing and backspacing speed
+    //     typeSpeed: 0,
+    //     // time before backspacing
+    //     backDelay: 500,
+    //     // ending callback function
+    //     callback: function () {
+    //         null
+    //     }
+    // }
 
 
 }(window.jQuery);
@@ -198,8 +201,8 @@
 $(function () {
 
     $("#self_write").typed({
-        strings: ['Përshendetje', 'Hello', 'Hola', 'Hallo', 'Bonjour', 'Ciao', 'Hej', '你好', 'こんにちは'],
-        typeSpeed: 30, // typing speed
+        strings: ['Përshendetje', 'Hello', 'Hola', 'Hallo', 'Bonjour', 'Ciao', 'Hej', 'Merhaba', '你好', 'こんにちは'],
+        typeSpeed: 40, // typing speed
         backDelay: 500, // pause before backspacing
         callback: function () {
             $(this)
