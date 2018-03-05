@@ -1,0 +1,82 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+i,
+label {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.hiTextWrapper {
+    padding: 1.2em;
+    text-align: center;
+}
+
+.sayHi {
+    color: #708090;
+    font-weight: 100;
+    font-size: 2em;
+    line-height: 1.25
+}
+
+.container {
+    padding: 30px;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.box {
+    /* margin: 10px; */
+    color: #fff;
+    /* height: 160px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 300px;
+    justify-content: center;
+    text-align: center;
+    padding: 2em;
+    margin: 1.2em;
+    border-radius: .5em;
+}
+
+.box>a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.box>a>svg {
+    width: 4em;
+    fill: #fff;
+    margin-bottom: 2em;
+}
+
+.github {
+    background-color: #181717
+}
+
+.linkedin {
+    background-color: #0077b5
+}
+
+.instagram {
+    background-color: #e4405f
+}
+
+.with_love {
+    color: #e4405f;
+}
+
+.footer-text {
+    text-align: right;
+}
