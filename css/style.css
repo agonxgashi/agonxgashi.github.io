@@ -59,7 +59,7 @@ label {
     display: block;
 }
 
-.box>a>svg {
+.box>a>svg, .box>a>img {
     width: 4em;
     fill: #fff;
     margin-bottom: 2em;
@@ -76,6 +76,31 @@ label {
 .instagram {
     background-color: #e4405f
 }
+
+.playstore {
+    background-color: #FFFFFF;
+    border: 1px solid #689f38;
+    color: #689f38 !important;
+    /* text-align: left; */
+}
+
+.playstore>a>h3 {
+    text-decoration: none;
+    color: #689f38;
+    display: block;
+}
+
+.playstore>a>h5 {
+    text-decoration: none;
+    color: #708090;
+    display: block;
+}
+
+/* .playstore>a>svg {
+    width: 4em;
+    fill: #689f38;
+    margin-bottom: 2em;
+} */
 
 .with_love {
     color: #e4405f;
