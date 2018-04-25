@@ -73,6 +73,10 @@ label {
     background-color: #0077b5
 }
 
+body{
+    font-size: 16px !important;
+}
+
 .instagram {
     background-color: #e4405f
 }
