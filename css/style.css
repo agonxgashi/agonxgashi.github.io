@@ -11,6 +11,10 @@ label {
     font-family: 'Maven Pro', sans-serif;
 }
 
+.clear-line{
+    clear: both;
+}
+
 .hiTextWrapper {
     padding: 1.2em;
     text-align: center;
