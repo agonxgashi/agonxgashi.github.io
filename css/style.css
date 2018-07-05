@@ -35,6 +35,11 @@ label {
     padding: 30px;
 }
 
+.me{
+    padding: 5px;
+    border: solid 1px #EFEFEF;
+}
+
 .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -101,6 +106,10 @@ body{
     text-decoration: none;
     color: #708090;
     display: block;
+}
+
+.playstore>a>p>b{
+    color: #689f38;
 }
 
 
