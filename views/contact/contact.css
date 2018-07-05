@@ -1,0 +1,4 @@
+.content-wrapper{
+    margin-top: 36px !important;
+    height: calc(100vh - 36px);
+}
