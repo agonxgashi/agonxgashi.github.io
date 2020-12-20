@@ -126,3 +126,27 @@ label {
 .footer-text {
     text-align: right;
 }
+
+.languages {
+    padding: auto;
+    align-content: center;
+}
+
+.languages svg {
+    max-width: 3em;
+    padding: 10px;
+  }
+
+  /* if you want to change the original color */
+  .languages svg path, .languages svg circle {
+    fill: #545f6d;
+  }
+
+  .languages svg:hover path, .languages svg circle {
+    fill: #30353b;
+  }
+
+  .project:hover div {
+    background-color: #f8f9fa;
+    cursor: pointer;
+  }
