@@ -67,6 +67,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://unpkg.com/webkul-micron@1.1.4/dist/css/micron.min.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+    
 
     <!-- END STYLES REGION -->
 </head>
@@ -96,10 +97,7 @@
                         all kind of technologies and languages, I mostly find myself writing C# or Node.js, Angular and
                         T-SQL.
                         <br>
-                        <br> Feel free to check my public projects on GitHub, <a href="./views/contact/contact.html"
-                            rel="noreferrer">contact</a> me, or say hi at
-                        <a href="mailto:agonxgashi@gmail.com?Subject=Hello" target="_top"
-                            rel="noreferrer">&lt;agonxgashi@gmail.com&gt;</a> if you want
+                        <br> Feel free to check my public projects on GitHub or say hi at <b>agonxgashi@gmail.com</b>
                     </p>
                 </div>
 
@@ -587,10 +585,14 @@
         <br>
         <br>
         <footer class="footer-text" style="text-align: center">
-            <p> Made with <label id="with_love_sym" class="with_love">♡</label> in Prishtina, &copy;2023 </p>
+            <p> Made with <label id="with_love_sym" class="with_love">♡</label> in Prishtina &copy; <span id="year"></span> </p>
         </footer>
         <!-- END FOOTER REGION -->
     </div>
+
+    <script>
+        year.append(new Date().getFullYear())
+    </script>
 
 
     <!-- SCRIPTS REGION -->
