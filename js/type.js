@@ -182,19 +182,6 @@
         });
     }
 
-    // $.fn.typed.defaults = {
-    //     strings: ['Përshendetje', 'Hello', 'Hola', 'Hallo', 'Bonjour', 'Ciao', 'Hej', 'Merhaba', '你好', 'こんにちは'],
-    //     // typing and backspacing speed
-    //     typeSpeed: 0,
-    //     // time before backspacing
-    //     backDelay: 500,
-    //     // ending callback function
-    //     callback: function () {
-    //         null
-    //     }
-    // }
-
-
 }(window.jQuery);
 
 
